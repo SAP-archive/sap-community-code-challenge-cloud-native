@@ -1,0 +1,15 @@
+{
+  "name": "hello-sap-community",
+  "version": "1.0.0",
+  "description": "This is a basic Hello World application for the SAP Code Challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
