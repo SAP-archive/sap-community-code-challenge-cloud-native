@@ -12,10 +12,11 @@ Complete the following steps to take part in the challenge:
 1. Fork this repository.
 2. Clone the forked repository into your development environment.
 3. Execute `npm install` to install the project's dependencies.
-4. Open a pull request to the base repository.
-5. Copy the URL of your pull request and paste it into the [SAP Community Coffee Corner thread](https://groups.community.sap.com/t5/coffee-corner/sap-community-code-challenge-testing-ui5-apps-with-wdi5/td-p/5229).
+4. Run `node server.js` in order to test the project locally.
+5. Look into the [Challenges](Challenges.md) file to see what the challenge is.
+6. Depending on the challenge, you will need to submit the required submission in the [SAP Community Coffee Corner thread](https://groups.community.sap.com/t5/coffee-corner/). Check the [Challenges](Challenges.md) file to see what is required.
 
-As this challenge is there to give you an easier start with Cloud Native technologies like Kubernetes, Containers and the SAP BTP, Kyma runtime the service being provided is really basic. You should focus more on understanding all the basics of this fairly complex topic. No worries there is more then enough content ready for you to feel like a Kubernetes pro after these 4 weeks! 🧑‍💻 😉
+Because the challenges are there to give you an introduction to Cloud Native technologies like Kubernetes, Containers and the SAP BTP, Kyma runtime the service being provided is really basic. You should focus more on understanding all the basics of this fairly complex topic. No worries there is more then enough content ready for you to feel like a Kubernetes pro after these 4 weeks! 🧑‍💻 😉
 
 You can find the challenges for each week in the [Challenges](Challenges.md) file.
 
@@ -24,6 +25,7 @@ You can find the challenges for each week in the [Challenges](Challenges.md) fil
 * Free Tier Account on SAP Business Technology Platform  
   ([Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html))
 * [Enable the SAP BTP, Kyma runtime](https://developers.sap.com/tutorials/cp-kyma-getting-started.html)
+* In this project we use [Docker](https://www.docker.com) but feel free to use any other container technology, note that if you do you can't use the provided DOCKERFILE.
 
 ## Download and Installation
 See [Participation](#participation).
@@ -39,6 +41,8 @@ Other recommended learning is:
 * [SAP BTP, Kyma runtime Tutorials](https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-business-technology-platform%2Fsap-btp-kyma-runtime)
 * ["What is Kyma?" - SAP Community Blog Post](https://blogs.sap.com/2019/07/08/what-is-kyma/)
 * [SAP BTP, Kyma runtime Extension examples](https://github.com/SAP-samples/kyma-runtime-extension-samples)
+* [Docker, Build Images](https://docs.docker.com/language/nodejs/build-images/)
+* [Publishing Docker Images to GitHub Packages](https://docs.github.com/en/actions/publishing-packages/publishing-docker-images)
 
 ## Known Issues
 No known issues.

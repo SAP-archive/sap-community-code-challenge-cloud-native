@@ -1,6 +1,10 @@
 const express = require('express')
 const app = express()
 
+app.get('/', (req, res) => {
+  res.send(`Your Node.js service is running on port ${PORT}...`);
+});
+
 app.get('/greeting/:communityID', (req, res) => {
   res.send(`Hey ${req.params.communityID}, really nice seeing you here! 🙂`);
 });
