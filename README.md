@@ -32,7 +32,7 @@ See [Participation](#participation).
 
 There is quite a lot to digest when working in the world of Cloud Native, but no worries we got you covered. If you need an introduction or just a refreshment on different aspects of Kubernetes or Containerization you should check out the [2minOf Cloud Native](https://youtube.com/playlist?list=PL6RpkC85SLQCwaJ54TAAHMvSl5wpVPrai) series on the SAP Developers YouTube channel.
 
-[![2min Of Cloud Native](https://user-images.githubusercontent.com/9074514/174771901-d2928ac4-856a-4847-912c-8a7a8233f91a.jpg =250x250 )](https://youtube.com/playlist?list=PL6RpkC85SLQCwaJ54TAAHMvSl5wpVPrai)
+[![2min Of Cloud Native](https://user-images.githubusercontent.com/9074514/174771901-d2928ac4-856a-4847-912c-8a7a8233f91a.jpg)](https://youtube.com/playlist?list=PL6RpkC85SLQCwaJ54TAAHMvSl5wpVPrai)
 
 Other recommended learning is:
 
