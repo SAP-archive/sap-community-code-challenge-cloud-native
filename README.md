@@ -4,6 +4,8 @@
 [![Updated Badge](https://badges.pufler.dev/updated/SAP-samples/sap-community-code-challenge-cloud-native)](https://badges.pufler.dev)
 [![Contributors Display](https://badges.pufler.dev/contributors/SAP-samples/sap-community-code-challenge-cloud-native)](https://badges.pufler.dev)
 
+# Coming Soon in July 2002
+
 This repository is the starting point for the SAP Community Code Challenge for Cloud Native (see [SAP Community Coffee Corner thread]() and [corresponding blog post]()). The repository contains a basic Hello-World type [Node.js](https://nodejs.org/en/) project which has a everything included which you need to deploy that service to a Kubernetes based runtime. That means you get the Node.js related files of the service, a [Dockerfile](https://docs.docker.com/engine/reference/builder/) and a [Deployment.yaml](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) file. If you're like "Oh Gosh, what is he talking about?" - No worries we will get to what all of that means. The goal for this months Coding Challenge is to bring the world of [Kubernetes](https://kubernetes.io), Containerization and the [SAP BTP, Kyma runtime](https://discovery-center.cloud.sap/serviceCatalog/kyma-runtime) closer to you so you have an easier start with the world of Cloud Native development.
 
 ## Participation
