@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-community
+  name: hello-community-deployment
+  labels:
+    app: hello-community
+spec:
+  replicas: 3
   selector:
     matchLabels:
       app: hello-community
-
+  template:
     metadata:
       labels:
-      
+        app: hello-community
     spec:
       containers:
       - name: hello-community
         image: ghcr.io/sap-samples/sap-community-code-challenge-cloud-native:latest
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
         ports:
         - containerPort: 8080
 ---
@@ -26,7 +26,7 @@ metadata:
   name: hello-community
 spec:
   selector:
-    app: hello-community-service
+    app: hello-community
   ports:
   - port: 8080
     targetPort: 8080
@@ -39,9 +39,9 @@ metadata:
 spec:
   gateway: kyma-gateway.kyma-system.svc.cluster.local
   service:
-    name: hello-community-service
+    name: hello-community
     port: 8080
-    host: hello-community-service
+    host: hello-community
   rules:
     - path: /.*
       methods: ["GET"]
