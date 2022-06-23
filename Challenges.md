@@ -9,10 +9,10 @@ This week's challenge is all about understanding and getting to know Kubernetes 
 Parts of the challenge for this week are educational and some are hands-on where you will deploy your first containerized service to the SAP BTP, Kyma runtime. So let's get started:
 
 1. Watch the videos of the [2minOf Cloud Native series](https://youtube.com/playlist?list=PL6RpkC85SLQCwaJ54TAAHMvSl5wpVPrai) on YouTube.
-2. Sign-up for Free Tier on SAP BTP with [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html).
-3. Use SAP BTP to enable the SAP BTP, Kyma runtime.
-4. Fork and clone this repository to run and test the provided service locally.
-5. Deploy and run the provided service on SAP BTP, Kyma runtime using the Kyma Console UI. The already containerized service is available through this repository! [SAP Community Code Challenge Cloud Native - Service Package](https://github.com/SAP-samples/sap-community-code-challenge-cloud-native/pkgs/container/sap-community-code-challenge-cloud-native). You need to have a Kubernetes [Secret setup](/Create_K8S_Secret.md) in order to successfully pull the container from GitHub.
+1. Sign-up for Free Tier on SAP BTP with [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html).
+1. Use SAP BTP to enable the SAP BTP, Kyma runtime.
+1. Fork and clone this repository to run and test the provided service locally (you should have already done this in the setup phase - see the [Setup and Participation](README.md#setup-and-participation) section).
+1. Deploy and run the provided service on SAP BTP, Kyma runtime using the Kyma Console UI. The already containerized service is available through this repository! [SAP Community Code Challenge Cloud Native - Service Package](https://github.com/SAP-samples/sap-community-code-challenge-cloud-native/pkgs/container/sap-community-code-challenge-cloud-native). You need to have a Kubernetes [Secret setup](/Create_K8S_Secret.md) in order to successfully pull the container from GitHub.
 
 &#8594; **Submission:** Post a **screenshot** of your deployed service as well as the **Service URL** in the [SAP Community Coffee Corner thread](https://groups.community.sap.com/t5/coffee-corner/). If you completed the **Advanced Task** on Step 6, provide a screenshot of the CLI output as well.
 
