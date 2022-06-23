@@ -20,7 +20,9 @@ To be able to take part in this challenge, it's essential that you first complet
 1. Clone the forked repository into your development environment.
 1. Navigate into the `service/` folder
 1. Execute `npm install` to install the project's dependencies.
-1. Run `node server.js` in order to test the project locally.
+1. Run `npm start` in order to test the project locally.
+
+> The default port used in this local setup is 8080; you can specify a different one (e.g. 8000) if you need to, like this: `PORT=8000 npm start`
 
 In order to complete each of the challenges, you need to:
 
