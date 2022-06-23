@@ -17,8 +17,11 @@ spec:
       containers:
       - name: hello-community
         image: ghcr.io/sap-samples/sap-community-code-challenge-cloud-native:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+      - name: regcred
 ---
 apiVersion: v1
 kind: Service

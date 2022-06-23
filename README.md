@@ -13,8 +13,8 @@ Complete the following steps to take part in the challenge:
 
 1. Fork this repository.
 2. Clone the forked repository into your development environment.
-3. Execute `npm install` to install the project's dependencies.
-4. Run `node server.js` in order to test the project locally.
+3. Navigate into the **service** folder and execute `npm install` to install the project's dependencies.
+4. In the **service** folder, run `node server.js` in order to test the project locally.
 5. Look into the [Challenges](Challenges.md) file to see what the challenge is.
 6. Depending on the challenge, you will need to submit the required submission in the [SAP Community Coffee Corner thread](https://groups.community.sap.com/t5/coffee-corner/). Check the [Challenges](Challenges.md) file to see what is required.
 
