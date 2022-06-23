@@ -18,6 +18,7 @@ To be able to take part in this challenge, it's essential that you first complet
 
 1. Fork this repository.
 1. Clone the forked repository into your development environment.
+1. Navigate into the `service/` folder
 1. Execute `npm install` to install the project's dependencies.
 1. Run `node server.js` in order to test the project locally.
 
