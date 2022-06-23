@@ -12,13 +12,13 @@ That means you get the Node.js related files of the service, a [Dockerfile](http
 
 The goal for this month's Coding Challenge is to bring the world of [Kubernetes](https://kubernetes.io), Containerization and the [SAP BTP, Kyma runtime](https://discovery-center.cloud.sap/serviceCatalog/kyma-runtime) closer to you so you have an easier start with the world of Cloud Native development.
 
-## Participation
+## Setup and Participation
 
 To be able to take part in this challenge, it's essential that you first complete the following steps:
 
 1. Fork this repository.
 1. Clone the forked repository into your development environment.
-1. Navigate into the `service/` folder
+1. Navigate into the `service/` folder.
 1. Execute `npm install` to install the project's dependencies.
 1. Run `npm start` in order to test the project locally.
 
@@ -42,7 +42,7 @@ You can find the challenges for each week in the [Challenges](Challenges.md) fil
 
 ## Download and Installation
 
-See [Participation](#participation).
+See [Setup and Participation](#setup-and-participation).
 
 ## Recommended Learning
 

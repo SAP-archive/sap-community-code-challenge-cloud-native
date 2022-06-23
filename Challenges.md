@@ -1,17 +1,18 @@
 # SAP Community Code Challenge Cloud Native - Challenges
 
-On this page you will get a new challenge based on this repository and the SAP BTP, Kyma runtime each week. These challenges must be concluded and the submission fullfiled in order to have your submission count towards progression of the challenge. Each week the type of submission might look different so be aware of that. Read the challenges for each week carefully and most important **Have fun! 😊**
+On this page you will get a new challenge based on this repository and the SAP BTP, Kyma runtime each week. These challenges must be concluded and the submission fulfilled in order to have your submission count towards the month's total progression. Each week the type of submission might look different so be aware of that. Read the challenges for each week carefully and most importantly **Have fun! 😊**
 
 ## Week 1 (July 6th, 2022  - July 13th, 2022)
-This weeks challenge is all about understanding and getting to know Kubernetes and setting up your SAP BTP, Kyma environment.
+
+This week's challenge is all about understanding and getting to know Kubernetes and setting up your SAP BTP, Kyma environment.
 
 Parts of the challenge for this week are educational and some are hands-on where you will deploy your first containerized service to the SAP BTP, Kyma runtime. So let's get started:
 
-1. Watch the videos of the 2minOf Cloud Native series on YouTube.
-1. Sign-up for Free Tier on SAP BTP with [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html).
-1. Use SAP BTP to enable the SAP BTP, Kyma runtime.
-1. Fork and clone this repository to run and test the provided service locally.
-1. Deploy and run the provided service on SAP BTP, Kyma runtime using the Kyma Console UI. The already containerized service is available through this repository! [SAP Community Code Challenge Cloud Native - Service Package](https://github.com/SAP-samples/sap-community-code-challenge-cloud-native/pkgs/container/sap-community-code-challenge-cloud-native). You need to have a Kubernetes [Secret setup](/Create_K8S_Secret.md) in order to successfully pull the container from GitHub.
+1. Watch the videos of the [2minOf Cloud Native series](https://youtube.com/playlist?list=PL6RpkC85SLQCwaJ54TAAHMvSl5wpVPrai) on YouTube.
+2. Sign-up for Free Tier on SAP BTP with [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html).
+3. Use SAP BTP to enable the SAP BTP, Kyma runtime.
+4. Fork and clone this repository to run and test the provided service locally.
+5. Deploy and run the provided service on SAP BTP, Kyma runtime using the Kyma Console UI. The already containerized service is available through this repository! [SAP Community Code Challenge Cloud Native - Service Package](https://github.com/SAP-samples/sap-community-code-challenge-cloud-native/pkgs/container/sap-community-code-challenge-cloud-native). You need to have a Kubernetes [Secret setup](/Create_K8S_Secret.md) in order to successfully pull the container from GitHub.
 
 &#8594; **Submission:** Post a **screenshot** of your deployed service as well as the **Service URL** in the [SAP Community Coffee Corner thread](https://groups.community.sap.com/t5/coffee-corner/). If you completed the **Advanced Task** on Step 6, provide a screenshot of the CLI output as well.
 
