@@ -35,7 +35,7 @@ You can find the challenges for each week in the [Challenges](Challenges.md) fil
 * Node.js version 16.x ([https://nodejs.org/en/download/](https://nodejs.org/en/download/)).
 * Free Tier Account on SAP Business Technology Platform (see [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html))
 * The SAP BTP, Kyma runtime enabled (see [Enable the SAP BTP, Kyma runtime](https://developers.sap.com/tutorials/cp-kyma-getting-started.html)).
-* In this project we use [Docker](https://www.docker.com) but feel free to use any other container technology, note that if you do you can't use the provided DOCKERFILE.
+* In this project we use [Docker](https://www.docker.com) but feel free to use any other container technology, note that if you do you can't use the `Dockerfile` provided.
 
 ## Download and Installation
 
