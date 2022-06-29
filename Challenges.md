@@ -18,7 +18,8 @@ Parts of the challenge for this week are educational and some are hands-on where
 &#8594; **Submission:** Post a **screenshot** of your deployed service as well as the **Service URL** in the [SAP Community Coffee Corner thread](https://groups.community.sap.com/t5/coffee-corner/). If you completed the **Advanced Task** on Step 6, provide a screenshot of the CLI output as well.
 
 ## Week 2 (July 13th, 2022 - July 20th, 2022)
-In this weeks challenge you have to containerize your own service and deploy it to the SAP BTP, Kyma runtime. Use the forked repository to create your project and needed files, open a Pull Request when you're done.
+
+In this week's challenge you have to containerize your own service and deploy it to the SAP BTP, Kyma runtime. Use the forked repository to create your project and needed files, open a Pull Request when you're done.
 
 1. Create your own service within the forked repository. The project doesn't have to be anything complicated, it can be a simple Hello World app. You're free to use whatever programming language you feel comfortable with (Node.js, JavaScript, GoLang, CAP, etc.).
 1. Containerize your service using a container technology like Docker, Podman, etc.
@@ -35,7 +36,7 @@ For last weeks challenge you have created your own small service, containerized 
 
 &#8594; **Submission:** Provide the service URL in the [SAP Community Coffee Corner thread](https://groups.community.sap.com/t5/coffee-corner/). **IMPORTANT:** Do not post or send your security configuration, tokens, passwords or any other security related information. It is enough for us if we see that we can't access the service because of *unauthorized*.
 
-## Week 4 (July 27th, 2022 - Aug 03th, 2022)
+## Week 4 (July 27th, 2022 - August 3rd, 2022)
 Wow! You're almost there. The true power of Kubernetes is that it has self-healing and autoscaling capabilities so your services and applications are always available to your users at any time. For this weeks challenge you will takle exactly that!
 
 1. Re-deploy your service or remove authentication from it in order for us to be able to access your service.
