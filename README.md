@@ -4,7 +4,7 @@
 [![Updated Badge](https://badges.pufler.dev/updated/SAP-samples/sap-community-code-challenge-cloud-native)](https://badges.pufler.dev)
 [![Contributors Display](https://badges.pufler.dev/contributors/SAP-samples/sap-community-code-challenge-cloud-native)](https://badges.pufler.dev)
 
-# Coming Soon in July 2002
+# Coming Soon in July 2022
 
 This repository is the starting point for the SAP Community Code Challenge for Cloud Native (see [SAP Community Coffee Corner thread]() and [corresponding blog post]()). It contains everything you need to get a basic [Node.js](https://nodejs.org/) based project deployed as a service to a Kubernetes based runtime.
 
@@ -21,13 +21,16 @@ To be able to take part in this challenge, it's essential that you first complet
 1. Navigate into the `service/` folder.
 1. Execute `npm install` to install the project's dependencies.
 1. Run `npm start` in order to test the project locally.
+1. To try out if the service runs correctly open a web browser and type in
+   1. `http://localhost:8080`
+   2. `http://localhost:8080/greeting/<Your Name>`
 
 > The default port used in this local setup is 8080; you can specify a different one (e.g. 8000) if you need to, like this: `PORT=8000 npm start`
 
 In order to complete each of the challenges, you need to:
 
 1. Look into the [Challenges](Challenges.md) file to see what the challenge is each week.
-1. Depending on the challenge, you may need to submit information on the [SAP Community Coffee Corner thread](https://groups.community.sap.com/t5/coffee-corner/). Check the [Challenges](Challenges.md) file to see what is required.
+2. Depending on the challenge, you may need to submit information on the [SAP Community Coffee Corner thread](https://groups.community.sap.com/t5/coffee-corner/). Check the [Challenges](Challenges.md) file to see what is required.
 
 Because the challenges are there to give you an introduction to Cloud Native technologies like Kubernetes, Containers and the SAP BTP, Kyma runtime the service being provided is deliberately basic. This is so that you can focus more on understanding the fundamentals of this fairly complex topic. No worries there is more then enough content ready for you to feel like a Kubernetes pro after these 4 weeks! 🧑‍💻 😉
 

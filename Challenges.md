@@ -15,7 +15,14 @@ Parts of the challenge for this week are educational and some are hands-on where
 1. Follow the [secret setup](/Create_K8S_Secret.md) to set up a Kubernetes secret containing credentials with which an image can be pulled from the GitHub Container Registry (in the next step).
 1. Deploy and run the provided service on SAP BTP, Kyma runtime using the Kyma Console UI or the `kubectl` Command Line Interface. The already containerized service is available through this repository! [SAP Community Code Challenge Cloud Native - Service Package](https://github.com/SAP-samples/sap-community-code-challenge-cloud-native/pkgs/container/sap-community-code-challenge-cloud-native). You'll need to have the secret set up in the previous step for this.
 
-&#8594; **Submission:** Post a **screenshot** of your deployed service as well as the **Service URL** in the [SAP Community Coffee Corner thread](https://groups.community.sap.com/t5/coffee-corner/). If you completed the **Advanced Task** on Step 6, provide a screenshot of the CLI output as well.
+> NOTE: If you need help deploying the service you can take a look at the following resources:  
+> * [Using kubectl to Create a Deployment](https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/)
+> * [Deploy to Kubernetes](https://docs.docker.com/get-started/kube-deploy/)
+> ```console
+> kubectl -n <namespace> -f <path-to-deployment.yaml>
+> ```
+
+&#8594; **Submission:** Post a **screenshot** of your deployed service as well as the **Service URL** in the [SAP Community Coffee Corner thread](https://groups.community.sap.com/t5/coffee-corner/).
 
 ## Week 2 (July 13th, 2022 - July 20th, 2022)
 
