@@ -6,7 +6,7 @@
 
 # Coming Soon in July 2022
 
-This repository is the starting point for the SAP Community Code Challenge for Cloud Native (see [SAP Community Coffee Corner thread]() and [corresponding blog post]()). It contains everything you need to get a basic [Node.js](https://nodejs.org/) based project deployed as a service to a Kubernetes based runtime.
+This repository is the starting point for the SAP Community Code Challenge for Cloud Native (see [SAP Community Coffee Corner thread](https://groups.community.sap.com/t5/application-development/sap-community-code-challenge-let-s-set-sail-for-cloud-native/m-p/5748#M60) and [corresponding blog post](https://blogs.sap.com/2022/07/04/sap-community-code-challenge-lets-set-sail-for-cloud-native-island/)). It contains everything you need to get a basic [Node.js](https://nodejs.org/) based project deployed as a service to a Kubernetes based runtime.
 
 That means you get the Node.js related files of the service, a [Dockerfile](https://docs.docker.com/engine/reference/builder/) and a [Deployment.yaml](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) file. If you're like "Oh Gosh, what is he talking about?" - No worries we will get to what all of that means.
 
