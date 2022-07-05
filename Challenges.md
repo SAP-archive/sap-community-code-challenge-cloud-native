@@ -22,4 +22,4 @@ Parts of the challenge for this week are educational and some are hands-on where
 > kubectl -n <namespace> -f <path-to-deployment.yaml>
 > ```
 
-&#8594; **Submission:** Post a **screenshot** of your deployed service as well as the **Service URL** in the [SAP Community Coffee Corner thread](https://groups.community.sap.com/t5/coffee-corner/).
+&#8594; **Submission:** Post a **screenshot** of your deployed service as well as the **Service URL** in the [SAP Community Coffee Corner thread]([https://groups.community.sap.com/t5/coffee-corner/]([https://groups.community.sap.com/t5/application-development/sap-community-code-challenge-let-s-set-sail-for-cloud-native](https://groups.community.sap.com/t5/application-development/sap-community-code-challenge-let-s-set-sail-for-cloud-native/m-p/5748/thread-id/60)).
