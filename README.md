@@ -1,6 +1,5 @@
 # SAP Community Code Challenge - Cloud Native
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/sap-community-code-challenge-cloud-native)](https://api.reuse.software/info/github.com/SAP-samples/sap-community-code-challenge-cloud-native)
-[![Visits Badge](https://badges.pufler.dev/visits/SAP-samples/sap-community-code-challenge-cloud-native)](https://badges.pufler.dev)
 [![Updated Badge](https://badges.pufler.dev/updated/SAP-samples/sap-community-code-challenge-cloud-native)](https://badges.pufler.dev)
 [![Contributors Display](https://badges.pufler.dev/contributors/SAP-samples/sap-community-code-challenge-cloud-native)](https://badges.pufler.dev)
 
