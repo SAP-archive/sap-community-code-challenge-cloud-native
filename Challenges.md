@@ -19,7 +19,7 @@ Parts of the challenge for this week are educational and some are hands-on where
 > * [Using kubectl to Create a Deployment](https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/)
 > * [Deploy to Kubernetes](https://docs.docker.com/get-started/kube-deploy/)
 > ```console
-> kubectl -n <namespace> -f <path-to-deployment.yaml>
+> kubectl apply -n <namespace> -f <path-to-deployment.yaml>
 > ```
 
 &#8594; **Submission:** Post a **screenshot** of your deployed service as well as the **Service URL** in the [SAP Community Application Development thread](https://groups.community.sap.com/t5/application-development/sap-community-code-challenge-let-s-set-sail-for-cloud-native/m-p/5748/thread-id/60).
