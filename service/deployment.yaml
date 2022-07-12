@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-community
+  name: main-app
   labels:
-    app: hello-community
+    app: main-app
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: hello-community
+      app: main-app
   template:
     metadata:
       labels:
-        app: hello-community
+        app: main-app
     spec:
       containers:
-      - name: hello-community
-        image: ghcr.io/sap-samples/sap-community-code-challenge-cloud-native:latest
+      - name: main-app
+        image: santiagogm1995/kyma-challenge:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
@@ -37,10 +37,10 @@ status: {}
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello-community
+  name: main-app
 spec:
   selector:
-    app: hello-community
+    app: main-app
   ports:
   - port: 8080
     targetPort: 8080
@@ -51,13 +51,13 @@ spec:
 apiVersion: gateway.kyma-project.io/v1alpha1
 kind: APIRule
 metadata:
-  name: hello-community
+  name: main-app
 spec:
   gateway: kyma-gateway.kyma-system.svc.cluster.local
   service:
-    name: hello-community
+    name: main-app
     port: 8080
-    host: hello-community
+    host: main-app
   rules:
     - path: /.*
       methods: ["GET"]
