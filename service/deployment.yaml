@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: main-app
+  name: rick-and-morty
   labels:
-    app: main-app
+    app: rick-and-morty
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: main-app
+      app: rick-and-morty
   template:
     metadata:
       labels:
-        app: main-app
+        app: rick-and-morty
     spec:
       containers:
-      - name: main-app
+      - name: rick-and-morty
         image: santiagogm1995/kyma-challenge:latest
         imagePullPolicy: Always
         ports:
@@ -37,10 +37,10 @@ status: {}
 apiVersion: v1
 kind: Service
 metadata:
-  name: main-app
+  name: rick-and-morty
 spec:
   selector:
-    app: main-app
+    app: rick-and-morty
   ports:
   - port: 8080
     targetPort: 8080
@@ -51,13 +51,13 @@ spec:
 apiVersion: gateway.kyma-project.io/v1alpha1
 kind: APIRule
 metadata:
-  name: main-app
+  name: rick-and-morty
 spec:
   gateway: kyma-gateway.kyma-system.svc.cluster.local
   service:
-    name: main-app
+    name: rick-and-morty
     port: 8080
-    host: main-app
+    host: rick-and-morty
   rules:
     - path: /.*
       methods: ["GET"]
