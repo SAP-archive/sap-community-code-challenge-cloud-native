@@ -1,0 +1,4 @@
+github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
+github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
+github.com/jaya-p/gowebservice v0.0.0-20200612114657-39feffe6ef36 h1:+EqhHYrLhK3HyVx6biMSixPsWSPgHO0xwsaPBFFUf1c=
+github.com/jaya-p/gowebservice v0.0.0-20200612114657-39feffe6ef36/go.mod h1:2pVd4SHfn/2ykAKW7Aqx+FjYy5eWAwu3DsWHlu3l2fU=

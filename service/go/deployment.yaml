@@ -1,0 +1,66 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-go
+  labels:
+    app: hello-go
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-go
+  template:
+    metadata:
+      labels:
+        app: hello-go
+    spec:
+      containers:
+      - name: hello-go
+        image: santiagogm1995/kyma-go-challenge:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 10000
+        resources:
+            limits:
+              ephemeral-storage: 256M
+              memory: 256M
+              cpu: 100m
+            requests:
+              cpu: 100m
+              ephemeral-storage: 256M
+              memory: 256M
+      imagePullSecrets:
+      - name: regcred
+status: {}
+      
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-go
+spec:
+  selector:
+    app: hello-go
+  ports:
+  - port: 8080
+    targetPort: 10000
+    protocol: TCP
+
+---
+
+apiVersion: gateway.kyma-project.io/v1alpha1
+kind: APIRule
+metadata:
+  name: hello-go
+spec:
+  gateway: kyma-gateway.kyma-system.svc.cluster.local
+  service:
+    name: hello-go
+    port: 8080
+    host: hello-go
+  rules:
+    - path: /.*
+      methods: ["GET"]
+      accessStrategies:
+        - handler: noop
+          config: {}
