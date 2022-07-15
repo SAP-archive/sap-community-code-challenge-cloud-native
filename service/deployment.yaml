@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-community
+  name: ui5-walkthrough
   labels:
-    app: hello-community
+    app: ui5-walkthrough
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: hello-community
+      app: ui5-walkthrough
   template:
     metadata:
       labels:
-        app: hello-community
+        app: ui5-walkthrough
     spec:
       containers:
-      - name: hello-community
-        image: ghcr.io/sap-samples/sap-community-code-challenge-cloud-native:latest
+      - name: ui5-walkthrough
+        image: docker.io/jacobtan89/ui5-walkthrough:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
@@ -37,10 +37,10 @@ status: {}
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello-community
+  name: ui5-walkthrough
 spec:
   selector:
-    app: hello-community
+    app: ui5-walkthrough
   ports:
   - port: 8080
     targetPort: 8080
@@ -51,13 +51,13 @@ spec:
 apiVersion: gateway.kyma-project.io/v1alpha1
 kind: APIRule
 metadata:
-  name: hello-community
+  name: ui5-walkthrough
 spec:
   gateway: kyma-gateway.kyma-system.svc.cluster.local
   service:
-    name: hello-community
+    name: ui5-walkthrough
     port: 8080
-    host: hello-community
+    host: ui5-walkthrough
   rules:
     - path: /.*
       methods: ["GET"]
