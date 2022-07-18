@@ -26,7 +26,7 @@ Parts of the challenge for this week are educational and some are hands-on where
 
 ## Week 2 (July 13th, 2022 - July 20th, 2022)
 
-In this week's challenge you have to containerize your own service and deploy it to the SAP BTP, Kyma runtime. Use the forked repository to create your project and needed files, open a Pull Request when you're done.
+In this week's challenge you have to containerize your own service and deploy it to the SAP BTP, Kyma runtime. Use the forked repository to create your project and needed files.
 
 1. Create your own service within the forked repository. The project doesn't have to be anything complicated, it can be a simple Hello World app. You're free to use whatever programming language you feel comfortable with (Node.js, JavaScript, GoLang, CAP, etc.).
 1. Containerize your service using a container technology like Docker, Podman, etc.
