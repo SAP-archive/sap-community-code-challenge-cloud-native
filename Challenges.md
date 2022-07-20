@@ -34,3 +34,12 @@ In this week's challenge you have to containerize your own service and deploy it
 1. Deploy your service to the SAP BTP, Kyma runtime. It is okay to delete the old deployment (Week 1) if you want to.
 
 &#8594; **Submission:** Post a **screenshot** of your deployed service as well as the **deployment.yaml** in the [SAP Community Code Challenge - Let's set sail for Cloud Native Island!](https://groups.community.sap.com/t5/application-development/sap-community-code-challenge-let-s-set-sail-for-cloud-native/m-p/5748/thread-id/60) thread.
+
+## Week 3 (July 20th, 2022 - July 27th, 2022)
+For last weeks challenge you have created your own small service, containerized it and deployed it to the SAP BTP, Kyma runtime. But a service is no good if you can't connect to it. This week is all about using APIRules and securing the connection.
+
+1. Read the official documentation to [Expose and Secure a Workload with a JSON Web Token](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/44bb2d3596554bf4b94ea344e40937dd.html?q=api%20rules).
+1. Expose and secure your deployed service.
+
+&#8594; **Submission:** Provide the service URL in the [SAP Community Coffee Corner thread](https://groups.community.sap.com/t5/application-development/sap-community-code-challenge-let-s-set-sail-for-cloud-native/m-p/5748/thread-id/60).  
+**IMPORTANT:** Do not post or send your security configuration, tokens, passwords or any other security related information. It is enough for us if we see that we can't access the service because of *unauthorized*. :)
