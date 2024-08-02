@@ -1,3 +1,11 @@
+## Deprecation Notice
+
+This public repository is read-only and no longer maintained.
+
+![](https://img.shields.io/badge/STATUS-NOT%20CURRENTLY%20MAINTAINED-red.svg?longCache=true&style=flat)
+
+---
+
 # SAP Community Code Challenge - Cloud Native
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/sap-community-code-challenge-cloud-native)](https://api.reuse.software/info/github.com/SAP-samples/sap-community-code-challenge-cloud-native)
 [![Updated Badge](https://badges.pufler.dev/updated/SAP-samples/sap-community-code-challenge-cloud-native)](https://badges.pufler.dev)
